@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+        display: grid;
+        grid-template-rows:
+          auto
+          1fr
+          auto;
+        grid-template-areas:
+          "header"
+          "content"
+          "footer";
+        min-height: 100vh;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+$brightBlue: #06A9B3;
+$lightBlue: #F2F8FB;
+$blackColor: #333333;
+$whiteButton: #FFFFFF;
+

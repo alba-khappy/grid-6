@@ -1,0 +1,36 @@
+@import "general.scss";
+
+.header {
+    background-color: $lightBlue;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    grid-column-gap: 65px;
+    padding: 30px;
+}
+
+.header-link {
+    color: $brightBlue;
+}
+
+.header-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 65px;
+}
+
+.header-search {
+    background-image: url('./images/loupe.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+}
+
+.header--link-logo {
+    justify-self: center;
+}
