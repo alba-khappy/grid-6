@@ -1,1 +1,33 @@
 @import "general.scss";
+
+.footer {
+    background-color: $lightBlue;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: 65px;
+    padding: 23px;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__item {
+    margin-right: 65px;
+}
+
+.footer__link {
+    color: $brightBlue;
+}
+
+.footer__copyright {
+    color: #333333;
+
+    a {
+        color: $brightBlue;
+    }
+}
